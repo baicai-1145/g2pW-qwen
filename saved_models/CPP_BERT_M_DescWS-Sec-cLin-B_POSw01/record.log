@@ -1,0 +1,49 @@
+device: cuda
+now: 2025-08-10 12:00:02.109368
+Starting new HTTPS connection (1): huggingface.co:443
+Starting new HTTPS connection (2): huggingface.co:443
+device: cuda
+now: 2025-08-10 12:03:18.426481
+Starting new HTTPS connection (1): huggingface.co:443
+https://huggingface.co:443 "HEAD /bert-base-chinese/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+device: cuda
+now: 2025-08-10 12:06:13.690788
+Starting new HTTPS connection (1): hf-mirror.com:443
+https://hf-mirror.com:443 "HEAD /bert-base-chinese/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+Attempting to acquire lock 139730410360640 on /home/baicai1145/.cache/huggingface/hub/.locks/models--bert-base-chinese/2ba5de7675473164e07f3b3531748c9a6f113a2c.lock
+Lock 139730410360640 acquired on /home/baicai1145/.cache/huggingface/hub/.locks/models--bert-base-chinese/2ba5de7675473164e07f3b3531748c9a6f113a2c.lock
+https://hf-mirror.com:443 "GET /bert-base-chinese/resolve/main/tokenizer_config.json HTTP/1.1" 200 49
+Attempting to release lock 139730410360640 on /home/baicai1145/.cache/huggingface/hub/.locks/models--bert-base-chinese/2ba5de7675473164e07f3b3531748c9a6f113a2c.lock
+Lock 139730410360640 released on /home/baicai1145/.cache/huggingface/hub/.locks/models--bert-base-chinese/2ba5de7675473164e07f3b3531748c9a6f113a2c.lock
+https://hf-mirror.com:443 "GET /api/models/bert-base-chinese/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 307 141
+https://hf-mirror.com:443 "GET /api/models/google-bert/bert-base-chinese/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+https://hf-mirror.com:443 "HEAD /bert-base-chinese/resolve/main/vocab.txt HTTP/1.1" 200 0
+Attempting to acquire lock 139730410360064 on /home/baicai1145/.cache/huggingface/hub/.locks/models--bert-base-chinese/ca4f9781030019ab9b253c6dcb8c7878b6dc87a5.lock
+Lock 139730410360064 acquired on /home/baicai1145/.cache/huggingface/hub/.locks/models--bert-base-chinese/ca4f9781030019ab9b253c6dcb8c7878b6dc87a5.lock
+https://hf-mirror.com:443 "GET /bert-base-chinese/resolve/main/vocab.txt HTTP/1.1" 200 None
+Attempting to release lock 139730410360064 on /home/baicai1145/.cache/huggingface/hub/.locks/models--bert-base-chinese/ca4f9781030019ab9b253c6dcb8c7878b6dc87a5.lock
+Lock 139730410360064 released on /home/baicai1145/.cache/huggingface/hub/.locks/models--bert-base-chinese/ca4f9781030019ab9b253c6dcb8c7878b6dc87a5.lock
+https://hf-mirror.com:443 "HEAD /bert-base-chinese/resolve/main/added_tokens.json HTTP/1.1" 404 0
+https://hf-mirror.com:443 "HEAD /bert-base-chinese/resolve/main/special_tokens_map.json HTTP/1.1" 404 0
+https://hf-mirror.com:443 "HEAD /bert-base-chinese/resolve/main/tokenizer.json HTTP/1.1" 200 0
+Attempting to acquire lock 139730410357232 on /home/baicai1145/.cache/huggingface/hub/.locks/models--bert-base-chinese/dd9401af0a4713df0e75066ae78d5bf6fa6c7116.lock
+Lock 139730410357232 acquired on /home/baicai1145/.cache/huggingface/hub/.locks/models--bert-base-chinese/dd9401af0a4713df0e75066ae78d5bf6fa6c7116.lock
+https://hf-mirror.com:443 "GET /bert-base-chinese/resolve/main/tokenizer.json HTTP/1.1" 200 None
+Attempting to release lock 139730410357232 on /home/baicai1145/.cache/huggingface/hub/.locks/models--bert-base-chinese/dd9401af0a4713df0e75066ae78d5bf6fa6c7116.lock
+Lock 139730410357232 released on /home/baicai1145/.cache/huggingface/hub/.locks/models--bert-base-chinese/dd9401af0a4713df0e75066ae78d5bf6fa6c7116.lock
+https://hf-mirror.com:443 "HEAD /bert-base-chinese/resolve/main/chat_template.jinja HTTP/1.1" 404 0
+https://hf-mirror.com:443 "HEAD /bert-base-chinese/resolve/main/config.json HTTP/1.1" 200 0
+Attempting to acquire lock 139730410364048 on /home/baicai1145/.cache/huggingface/hub/.locks/models--bert-base-chinese/a521dc2845bdddbe822864290c6b928396fc5ee8.lock
+Lock 139730410364048 acquired on /home/baicai1145/.cache/huggingface/hub/.locks/models--bert-base-chinese/a521dc2845bdddbe822864290c6b928396fc5ee8.lock
+https://hf-mirror.com:443 "GET /bert-base-chinese/resolve/main/config.json HTTP/1.1" 200 324
+Attempting to release lock 139730410364048 on /home/baicai1145/.cache/huggingface/hub/.locks/models--bert-base-chinese/a521dc2845bdddbe822864290c6b928396fc5ee8.lock
+Lock 139730410364048 released on /home/baicai1145/.cache/huggingface/hub/.locks/models--bert-base-chinese/a521dc2845bdddbe822864290c6b928396fc5ee8.lock
+https://hf-mirror.com:443 "HEAD /bert-base-chinese/resolve/main/config.json HTTP/1.1" 200 0
+https://hf-mirror.com:443 "HEAD /bert-base-chinese/resolve/main/config.json HTTP/1.1" 200 0
+https://hf-mirror.com:443 "HEAD /bert-base-chinese/resolve/main/model.safetensors HTTP/1.1" 302 0
+Attempting to acquire lock 139730410364672 on /home/baicai1145/.cache/huggingface/hub/.locks/models--bert-base-chinese/3404a1ffd8da507042e8161013ba2a4fc49858b4e3f8fbf5ce5724f94883aec3.lock
+Lock 139730410364672 acquired on /home/baicai1145/.cache/huggingface/hub/.locks/models--bert-base-chinese/3404a1ffd8da507042e8161013ba2a4fc49858b4e3f8fbf5ce5724f94883aec3.lock
+Starting new HTTP connection (1): hf-mirror.com:80
+http://hf-mirror.com:80 "GET /api/models/google-bert/bert-base-chinese/xet-read-token/8f23c25b06e129b6c986331a13d8d025a92cf0ea HTTP/1.1" 200 325
+Attempting to release lock 139730410364672 on /home/baicai1145/.cache/huggingface/hub/.locks/models--bert-base-chinese/3404a1ffd8da507042e8161013ba2a4fc49858b4e3f8fbf5ce5724f94883aec3.lock
+Lock 139730410364672 released on /home/baicai1145/.cache/huggingface/hub/.locks/models--bert-base-chinese/3404a1ffd8da507042e8161013ba2a4fc49858b4e3f8fbf5ce5724f94883aec3.lock
