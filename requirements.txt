@@ -6,3 +6,4 @@ transformers
 pandas
 pytest
 pytest-cov
+tensorboard
